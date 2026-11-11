@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Portfolio - Skills</title>
+  <link rel="stylesheet" href="skillsstyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <p class="header-eyebrow"><span class="status-dot" aria-hidden="true"></span>Jack Taylor &middot; Software Engineering Student</p>
+      <h1>My Skills and <span class="header-accent">Projects</span></h1>
+      <p class="header-tagline">The technologies I work with and the things I have built.</p>
+    </div>
+    <span class="header-mark" aria-hidden="true">&lt;/&gt;</span>
+  </header>
+
+  <nav class="sidebar">
+    <ul>
+      <li><a class="navButton" href="index.html">Home</a></li>
+      <li><a class="navButton" href="skills.html">Skills & Achievements</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="skills-projects-row">
+
+      <!-- Skills -->
+      <div class="skills-column">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skillrow"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+          <div class="skillrow"><i class="fa-brands fa-css3"></i><span>CSS</span></div>
+          <div class="skillrow"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+          <div class="skillrow"><i class="fa-brands fa-python"></i><span>Python</span></div>
+          <div class="skillrow"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+          <div class="skillrow"><i class="fa-brands fa-react"></i><span>React</span></div>
+          <div class="skillrow"><i class="fa-brands fa-python"></i><span>FastAPI</span></div>
+          <div class="skillrow"><i class="fa-solid fa-code"></i><span>REST API Development</span></div>
+          <div class="skillrow"><i class="fa-solid fa-brain"></i><span>AI / RAG Development</span></div>
+          <div class="skillrow"><i class="fa-solid fa-database"></i><span>FAISS Vector Search</span></div>
+          <div class="skillrow"><i class="fa-solid fa-vial"></i><span>Automated Testing</span></div>
+          <div class="skillrow"><i class="fa-brands fa-github"></i><span>Git & GitHub</span></div>
+
+        </div>
+      </div>
+
+      <!-- Project examples -->
+      <div class="projects-column">
+        <h2>Project Examples</h2>
+        <div class="projects-grid">
+
+
+<div class="project">
+  <a href="https://github.com/Jaquo/Documind" target="_blank">
+    <img
+      src="DocuMind.png"
+      alt="DocuMind AI Document Assistant Screenshot"
+      class="project-img"
+    />
+  </a>
+
+  <div class="project-text">
+    <a href="https://github.com/Jaquo/Documind" target="_blank">
+      <i class="fab fa-github"></i> DocuMind - AI Document Assistant
+    </a>
+
+    <p>
+      A full-stack Retrieval-Augmented Generation (RAG) application
+      developed using Python, React, FastAPI and JavaScript.
+      Allows users to upload PDF documents and ask questions using
+      a locally hosted Qwen 2.5 AI model through Ollama.
+
+      Implements PDF text extraction with PyMuPDF, semantic embeddings
+      using Sentence Transformers, and FAISS vector search to
+      generate context-aware answers with source citations.
+
+      Features a responsive React interface, persistent vector
+      storage, REST API integration and automated testing.
+    </p>
+  </div>
+</div>
+
+
+<div class="project">
+  <a href = "https://github.com/Jaquo/BusApp">
+  <img src="busApp.png" alt="Tkinter Basket App Screenshot" class="project-img" />
+  </a>
+  <div class="project-text">
+    <a href="https://github.com/Jaquo/BusApp" target="_blank">
+      <i class="fab fa-github"></i> Tkinter Basket App
+    </a>
+    <p>A Python GUI app using tkinter and pandas with working cart logic and checkout flow.
+       Requires a CSV file with bus data to run. Demonstrates Python programming and GUI development skills.
+    </p>
+  </div>
+</div>
+
+<div class="project">
+  <a href="https://github.com/Jaquo/Portfolio" target="_blank">
+  <img src="portfolio.png" alt="Portfolio Website Screenshot" class="project-img" href="https://github.com/Jaquo/Portfolio" />
+  </a>
+  <div class="project-text">
+    <a href="https://github.com/Jaquo/Portfolio" target="_blank">
+      <i class="fab fa-github"></i> Portfolio Website
+    </a>
+    <p>Responsive HTML/CSS site showcasing skills and learning journey.
+       Built with semantic HTML and styled with CSS, demonstrating web development skills.
+    </p>
+  </div>
+</div>
+
+<div class="project">
+  <a href="https://github.com/Jaquo/C-RPS" target="_blank">
+  <img src="C++proj.png" alt="Rock Paper Scissors Game Screenshot"  class="project-img"  href="https://github.com/Jaquo/C-RPS"/>
+  </a>
+  <div class="project-text">
+    <a href="https://github.com/Jaquo/C-RPS" target="_blank">
+      <i class="fab fa-github"></i> C++ Rock Paper Scissors Game
+    </a>
+    <p>A console-based Rock Paper Scissors game built in C++. Demonstrates basic programming concepts like loops and conditionals in C++.  
+    </p> 
+  </div> 
+</div> 
+<div class="project">
+  <a href="https://olympus.ntu.ac.uk/n1291986/AirportProjectC-" target="_blank">
+  <img src="APIMG.png" alt="Airport Search Library Screenshot"  class="project-img"  href="https://olympus.ntu.ac.uk/n1291986/AirportProjectC-"/>
+  </a>
+  <div class="project-text">
+    <a href="https://olympus.ntu.ac.uk/n1291986/AirportProjectC-" target="_blank">
+      <i class="fab fa-github"></i> C++ Airport Search Library
+    </a>
+    <p>A C++ library that allows users to search for airports using a CSV file. Features case-insensitive and partial matching search functionality. Admins can add or remove airports from the CSV after authentication. Demonstrates advanced C++ programming and data handling skills.
+    </p> 
+  </div> 
+</div> 
+          </div>
+  </div>
+  </div>
+  </div>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>
